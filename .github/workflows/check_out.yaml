@@ -12,6 +12,6 @@ jobs:
     runs-on: ubuntu-lastest
     steps:
     - name: use checkout action
-      uses: action/checkout@v4
-    - name: check file list2
+      uses: actions/checkout@v4
+    - name: check file list
       run: cat README.md
