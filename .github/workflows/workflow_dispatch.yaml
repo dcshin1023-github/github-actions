@@ -5,7 +5,7 @@ on:
       name:
         description: 'set name'
         required: true
-        default: 'github-action'
+        default: 'github-actions'
         type: string
       environment:
         description: 'set env'
@@ -25,7 +25,7 @@ jobs:
       run: echo hello world
     - name: step2
       run: |
-        echo hello dcshin
+        echo hello world
         echo github action
     - name: echo inputs
       run: |
