@@ -5,7 +5,7 @@ on:
 
 jobs:
   branch_filter:
-    runs-on: ubuntu-lastest
+    runs-on: ubuntu-latest
     steps:
     - name: echo
       run: echo hell dcshin1023
