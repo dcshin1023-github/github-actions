@@ -11,7 +11,7 @@ on:
         - example
         - service
     name:
-      decription: 'set repo name'
+      description: 'set repo name'
       required: true
       default: 'github-actions'
       type: string
