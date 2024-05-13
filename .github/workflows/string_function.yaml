@@ -1,0 +1,27 @@
+name: string_function
+on: push
+
+jobs:
+  string-function:
+    runs-on: ubuntu-latest
+    steps:
+    - name: startswith
+      if: startsWith('github action', 'git')
+      run: echo "git"
+    - name: startswith
+      if: startsWith('github action', 'test')
+      run: echo "test"
+
+    - name: ednswith
+      if: endsWith('github actions', 'ions')
+      run: echo "ions"
+    - name: endwith
+      if: endsWith('github actions', 'test')
+      run: echo "test"
+
+    - name: contains
+      if: contains('github actions', 'act')
+      run: echo "contains act"
+    - name: startswith
+      if: contains('github actions', 'git')
+      run: echo "contains git"
