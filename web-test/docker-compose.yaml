@@ -1,8 +1,0 @@
-version: '3.8'
-
-services:
-  mgmt:
-    image: nginx:1.1
-    container_name: web
-    ports:
-      - "80:80"
